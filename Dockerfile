@@ -1,4 +1,4 @@
-FROM    ubuntu:20.04
+FROM    docker.io/ubuntu:24.04
 USER    root
 ARG     HOLLYWOOD_USER=mcbain
 ENV     DEBIAN_FRONTEND=noninteractive
